@@ -1,0 +1,41 @@
+.weather {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+}
+.weatherIcon {
+  width: 90px;
+  height: 75px;
+  background-color: #fff;
+  display: table;
+}
+.imageFrame {
+  height: 75px;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.temp {
+  width: 100px;
+  height: 75px;
+  background-color: #fff;
+  display: table;
+  float: left;
+  margin-right: 2px;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+}
+.thermometer {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 15px;
+  color: #3f3f3f;
+  width: 100%;
+}
+.indicator {
+  height: 48px;
+}
